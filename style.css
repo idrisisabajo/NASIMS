@@ -1,3 +1,144 @@
-.section-one {
-  object-fit:
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-text {
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 3rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+}
+
+.active-link {
+  border-bottom: 4px solid #288855;
+}
+
+.login button {
+  color: white;
+  padding: 0 5rem;
+  margin-right: 5rem;
+  height: 3.3rem;
+  font-size: medium;
+}
+
+.carousel-item-one {
+  background: #fcf4f2;
+}
+
+.carousel-item-two {
+  background: #f2fcf9;
+}
+
+.carousel-text1 {
+  padding: 8rem;
+}
+
+.carousel-text1 img {
+  margin-top: 2.4rem;
+}
+
+.carousel-text2 {
+  padding: 8rem;
+}
+
+.carousel-text2 img {
+  margin-top: 2.4rem;
+}
+
+.carousel-text3 {
+  padding: 8rem;
+}
+
+.carousel-text3 img {
+  margin-top: 2.4rem;
+}
+
+.pres-section {
+  margin-top: 6rem;
+}
+
+.font-weight-bold {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600 !important;
+  margin-top: 3.8rem;
+}
+
+.president-page {
+  margin-bottom: 15rem;
+}
+
+.about-head {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #f9ae00;
+}
+
+.about-title {
+  font-size: 1.6rem;
+}
+
+.about-body {
+  opacity: 0.7;
+}
+
+.about-image {
+  position: relative;
+  width: 450px;
+  min-height: 500px;
+  max-width: 100%;
+  background-image: url(/Photos/about.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto !important;
+}
+
+.programmes {
+  background-color: #f2fcf9;
+  padding: 50px 0;
+}
+
+/* .programmes .container {
+  max-width: 700px;
+  font-size: 1.1rem;
+} */
+
+.programmes-head {
+  font-size: 1.6rem;
+}
+
+.programme-title {
+  opacity: 0.7;
+  text-align: center;
+  margin: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+@media (min-width: 375px) {
+  .navbar-brand span {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand span {
+    display: block;
+  }
+}
+
+.card-title {
+  color: #f9ae00;
+}
+
+.card-imgeng {
+  width: 100%;
+  height: 60%;
 }
