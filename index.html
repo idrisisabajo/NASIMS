@@ -11,6 +11,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -248,8 +250,8 @@
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row justif-content-center justify-content-lg-between">
-                  <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-md-6 col-12">
                     <div class="card">
                       <img
                         src="./image/Photos/electr.jpg"
@@ -261,8 +263,8 @@
                         <p class="card-text">
                          The N-Power Program is built to address the issue of youth unemployment and help increase social development.
                        </p>     
-                        <a href="#" class="btn btn-success btn-lg">Apply Now</a>&emsp;
-                        <a href="#" class="btn btn-light text-success btn-lg">Learn More</a>
+                        <a href="#" class="btn bg-success btn-lg text-white" type="submit"> Apply Now</a>&emsp;
+                        <a href="#" class="btn btn-green text-success btn-lg" type="submit"> Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -278,8 +280,8 @@
                         <p class="card-text">
                           Nigeria's Conditional Cash Transfer program provides targeted cash transfers to the most vulnerable households with the long-term goal of lifting millions out of poverty.
                         </p>
-                        <a href="#" class="btn btn-success btn-lg">Apply Now</a> &emsp;
-                        <a href="#" class="btn btn-light text-success btn-lg">Learn More</a>
+                        <a href="#" class="btn bg-success btn-lg text-white">Apply Now</a> &emsp;
+                        <a href="#" class="btn btn-green text-success btn-lg">Learn More</a>
 
                       </div>
                     </div>
@@ -357,51 +359,90 @@
         </div>
       </div>
     </section>
+    <section class="news-section">
+      <div class="container">
+        <h2 class="text-center news-head mt-5">Latest News</h2>
+        <p class="text-center mx-auto my-3 news-desc text-muted">
+          Keep up with the latest updates about programmes and events 
+        </p>
+        <div class="row news-body justify-content-center justify-content-lg-between">
+          <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+            <div class="card" >
+              <img src="./image/Photos/engineer.jpg"  alt="...">
+              <div class="card-body">
+                <p class="text-muted news-date">June 25, 2020</p>
+                <h5 class="card-title">N-Power Batch C</h5>
+                <p class="card-text">All empower batch c applicants are expected to update their profile and take test for possible...</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+            <div class="card" >
+              <img src="./image/Photos/call.jpg"  alt="...">
+              <div class="card-body">
+                <p class="text-muted news-date">June 25, 2020</p>
+                <h5 class="card-title">N-Power Customer Care</h5>
+                <p class="card-text">All enquires and complains should be channeled through the N-Power customer care line. Details...</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+            <div class="card" >
+              <img src="./image/Photos/ict.jpg"  alt="...">
+              <div class="card-body">
+                <p class="text-muted news-date">June 25, 2020</p>
+                <h5 class="card-title">NASIMS Test Portal</h5>
+                <p class="card-text">Please make sure your records are fully updated on the NASIMS portal before taking this test...</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="text-center py-5">
+            <a href="#" class="btn btn-success px-5 py-3">News Page</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class=" px-5 row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./image/Photos/engineer.jpg" class="card-imgeng" alt="Engineer">
-      <div class="card-body">
-        <h5 class="card-title">N-Power Batch C</h5>
-        <p>June 25, 2020</p>
-        <p class="card-text">All empower batch c applicants are expected to update their profile and take test for possible shortlisting...</p>
+    <div class="my-5 bg-dark py-5 justify-content-center align-items-center text-center text-white">
+        <div class="container ">
+          <span class="">Be the first to know</span>
+          <h3>Follow us on our social media platforms for all the latest updates and applications news </h3>
+        </div>
+        <div class= "justify-content-space-between mt-4">
+        <a class="text-white me-3" href="#"><i class="bi bi-facebook" ></i></a>
+           <a class="text-white me-3" href="#"><i class="bi bi-twitter" ></i></a>
+          <a class="text-white me-3" href="#"><i class="bi bi-instagram" ></i></a>
       </div>
-      
-    </div>  
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./image/Photos/call2.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">N-Power Customer Care</h5>
-        <p>June 25,2020</p>
-        <p class="card-text">All enquires and complains should be channeled through the N-Power customer care line. Details are as follows:</p>
-    
       </div>
-    
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./image/Photos/portal.jpg" class="card-img-top" alt="Systems">
-      <div class="card-body">
-        <h5 class="card-title">NASIMS Test Portal</h5>
-        <p>June 25, 2020</p>
-        <p class="card-text">Please make sure your records are fully updated on the NASIMS portal before taking this test...
-       </p>
-      </div>
-      
-    </div>
-  </div>
-  <a href="#" class="btn btn-light text-success btn-lg">New pages</a>
-    
-  </div>
-</div>
-    
-    
-  
 
+      <section class="questions">
+      <div class="row justify-content-center align-items-center mx-0">
+        <div class="container">
+          <h3 class="mt-5 text text-center">Got Questions?</h3>
+          <p class="text-center">For enquiries, complaints or requests, feel free to reach out to us. </p>
+          <a href="#" class="btn btn-success questions-link px-5 py-3">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid py-5 my-5 footer text-center ">
+      <div class="justify-content-space-between text-decoration-none bg-success linear-gradient-covered">
+        <a class="text-white text-decoration-none me-4" href="#">Apply</a>
+        <a class="text-white text-decoration-none me-4" href="#">About</a>
+        <a class="text-white text-decoration-none me-4" href="#">News</a>
+        <a class="text-white text-decoration-none me-4" href="#">Contact</a>
+      </div>
+      <div class="my-4 justify-content-space-between">
+        <a class="text-white me-3" href="#"><i class="bi bi-facebook "></i></a>
+           <a class="text-white me-3" href="#"><i class="bi bi-twitter "></i></a>
+          <a class="text-white me-3" href="#"><i class="bi bi-instagram "></i></a>
+      </div>
+      <span class="text-white">Copyright 2022. Federal Ministry of Humanitarian Affairs, Disaster Management and Social Development. All Rights Reserved. </span>
+    </div>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
